@@ -24,8 +24,10 @@ Text::TabularDisplay simplifies displaying textual data in a table.
 The output is identical to the columnar display of query results in
 the mysql text monitor.
 
-# %description -l pl
-# TODO
+%description -l pl
+Text::TabularDisplay upraszcza wy¶wietlanie danych tekstowych w
+tabeli. Wyj¶cie jest identyczne do kolumnowego wy¶wietlania wyników
+zapytania w tekstowym monitorze mysql.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
