@@ -6,7 +6,7 @@
 %define	pdir	Text
 %define	pnam	TabularDisplay
 Summary:	Text::TabularDisplay - display text in formatted table output
-Summary(pl):	Text::TabularDisplay - wypisywanie tekstu w postaci tabelki
+Summary(pl.UTF-8):   Text::TabularDisplay - wypisywanie tekstu w postaci tabelki
 Name:		perl-Text-TabularDisplay
 Version:	1.22
 Release:	1
@@ -24,9 +24,9 @@ Text::TabularDisplay simplifies displaying textual data in a table.
 The output is identical to the columnar display of query results in
 the mysql text monitor.
 
-%description -l pl
-Text::TabularDisplay upraszcza wy∂wietlanie danych tekstowych w
-tabeli. Wyj∂cie jest identyczne do kolumnowego wy∂wietlania wynikÛw
+%description -l pl.UTF-8
+Text::TabularDisplay upraszcza wy≈õwietlanie danych tekstowych w
+tabeli. Wyj≈õcie jest identyczne do kolumnowego wy≈õwietlania wynik√≥w
 zapytania w tekstowym monitorze mysql.
 
 %prep
