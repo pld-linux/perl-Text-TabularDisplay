@@ -9,7 +9,7 @@ Summary:	Text::TabularDisplay - display text in formatted table output
 Summary(pl.UTF-8):	Text::TabularDisplay - wypisywanie tekstu w postaci tabelki
 Name:		perl-Text-TabularDisplay
 Version:	1.22
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
