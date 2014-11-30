@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Text
 %define	pnam	TabularDisplay
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::TabularDisplay - display text in formatted table output
 Summary(pl.UTF-8):	Text::TabularDisplay - wypisywanie tekstu w postaci tabelki
 Name:		perl-Text-TabularDisplay
@@ -14,6 +14,7 @@ License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	abb13449751ae40c01747a443f0420b4
+URL:		http://search.cpan.org/dist/Text-TabularDisplay/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
