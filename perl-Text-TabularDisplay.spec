@@ -4,7 +4,6 @@
 
 %define	pdir	Text
 %define	pnam	TabularDisplay
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::TabularDisplay - display text in formatted table output
 Summary(pl.UTF-8):	Text::TabularDisplay - wypisywanie tekstu w postaci tabelki
 Name:		perl-Text-TabularDisplay
